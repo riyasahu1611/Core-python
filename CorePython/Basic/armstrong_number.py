@@ -12,4 +12,4 @@ while n > 0:
 if sum == number:
     print("this is amstrong", number)
 else:
-    print("not arms")
+    print("not armstrong")
