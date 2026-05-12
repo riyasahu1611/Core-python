@@ -1,6 +1,6 @@
 import datetime
-# x= datetime.datetime.now()
-# print(x.strftime("%B"))
+x= datetime.datetime.now()
+print(x.strftime("%B"))
 
 x = datetime.date(2000, 11, 16)
 print(x)
