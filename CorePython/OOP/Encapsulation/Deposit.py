@@ -26,13 +26,30 @@ class account:
     def set_balance(self, balance):
         self.__balance = balance
 
+    # deposit function
+    def deposit(self, amount):
+
+        # deposit limit
+        if amount > 50000:
+            print("You cannot deposit more than 50000")
+
+        else:
+            self.__balance += amount
+
+            print(amount, "deposit successful")
+            print("Total Balance:", self.__balance)
 
 a = account()
 
-a.set_number('12345')
+# set values
+a.set_number("12345")
 a.set_account_type("Saving Account")
 a.set_balance(10000)
 
 print("Account Number:", a.get_number())
 print("Account Type:", a.get_account_type())
 print("Balance:", a.get_balance())
+
+# deposit calls
+a.deposit(30000)
+a.deposit(60000)
