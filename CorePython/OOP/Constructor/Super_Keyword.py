@@ -40,7 +40,7 @@ class Rectangle(Shape):
 
 
 r = Rectangle(10, 20, 'Blue', 200)
-print("Rectangle:")
+print("Rectangle specialization given below:")
 print("length:", r.get_length())
 print("width:", r.get_width())
 print("color:", r.get_color())
