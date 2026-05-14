@@ -6,5 +6,5 @@ today = datetime.date.today()
 age = today.year - dob.year
 dayName = dob.strftime("%A")
 
-print(" My  age is :- ", age)
-print("Dob Day is: ",dayName)
+print(" My  age is :- ",age)
+print("Dob Day is:- ",dayName)
